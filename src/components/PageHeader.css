@@ -1,0 +1,20 @@
+.PageHeader .Breadcrumbs ol li {
+	list-style-type: none;
+	display: inline-block;
+	font-size: 80%;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.PageHeader .Breadcrumbs ol li a {
+	color: var(--white);
+	text-decoration: none;
+}
+
+.PageHeader .Breadcrumbs ol li:last-child a {
+	color: var(--primary-bright);
+}
+
+.PageHeader .Breadcrumbs .breadcrumb__separator {
+	padding: 0 0.4rem;
+}
